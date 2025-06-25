@@ -1,0 +1,10 @@
+# Config file containing API keys
+config.json
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Downloaded music files
+Downloads/
