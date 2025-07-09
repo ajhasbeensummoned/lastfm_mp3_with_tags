@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lastmp3"
+version = "1.0.0"
+authors = [
+    {name = "Aditya", email = "ajhasbeensummoned@gmail.com"},
+]
+description = "A user-friendly Python tool that downloads your most recent Last.fm tracks as high-quality MP3s with automatic metadata tagging."
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+dependencies = [
+    "requests",
+    "static_ffmpeg",
+    "yt-dlp",
+    "mutagen"
+]
+
+[project.scripts]
+lastmp3 = "lastmp3.__main__:main"
