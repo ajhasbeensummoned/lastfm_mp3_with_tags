@@ -116,3 +116,5 @@ If you encounter issues:
 4. Check if your Last.fm username and API key are correct
 
 Contributions are always welcome!!
+
+Contact :- ajhasbeensummoned@gmail.com
